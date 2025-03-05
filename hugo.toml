@@ -1,15 +1,16 @@
-baseURL = 'https://antiracism.livekiersted.com/'
+baseURL = 'https://tutoring.livekiersted.com/'
 languageCode = 'en-us'
-title = 'Live Kiersted Antiracism'
+title = 'Live Kiersted Tutoring'
 theme = 'hugo-scroll'
+layoutDir = 'hugo-base/layouts'
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 defaultContentLanguage = "en"
 ignoreFiles = [ ".*/README.md" ]
 
 [params]
-    favicon = "images/anti-racism favicon.png"
+    favicon = "images/tutoring favicon.png"
     hidedesignbyline = true
     title = "Live Kiersted"
-    description = "Anti-Racism"
+    description = "Tutoring"
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
